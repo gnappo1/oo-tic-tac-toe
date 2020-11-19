@@ -205,7 +205,7 @@ describe './lib/tic_tac_toe.rb' do
 
         expect(game.won?).to be_falsey
       end
-
+ 
       it 'returns the winning combo for a win' do
         game = TicTacToe.new
         board = ["X", "O", "X", "O", "X", "O", "O", "X", "X"]
